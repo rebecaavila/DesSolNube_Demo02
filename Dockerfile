@@ -9,4 +9,4 @@ RUN apt-get update && apt-get install -y \
 COPY . /var/www/html/
 
 # Exponer el puerto 80
-EXPOSE 80
+EXPOSE 81
