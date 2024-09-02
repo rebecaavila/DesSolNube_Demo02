@@ -8,5 +8,5 @@ RUN apt-get update && apt-get install -y \
 # Copiar contenido de toda la app en el contenedor
 COPY . /var/www/html/
 
-# Exponer el puerto 90
+# Exponer el puerto 80
 EXPOSE 80
